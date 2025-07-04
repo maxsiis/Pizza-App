@@ -1,3 +1,54 @@
 .headling {
   margin-bottom: 40px;
 }
+
+.line {
+  display: flex;
+  justify-content: space-between;
+  padding: 17px 0;
+  max-width: 512px;
+}
+
+.line span {
+  color: #9796a1;
+}
+
+.hr {
+  max-width: 512px;
+  margin: 0;
+  border: 1px solid #f1f2f3;
+}
+
+.text {
+  color: var(--text-color);
+  font-family: Open Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.text {
+  color: var(--text-color);
+  font-family: Open Sans;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.totalCount {
+  color: #bebebe;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.checkout {
+  max-width: 512px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 70px;
+}
