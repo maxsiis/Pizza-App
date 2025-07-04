@@ -12,8 +12,7 @@ export interface CartState {
   items: CartItem[];
 }
 
-const initialState: CartState = loadState<CartState>(CART_PERSISTENT_STATE)
-  ?.jwt ?? {
+const initialState: CartState = loadState<CartState>(CART_PERSISTENT_STATE) ?? {
   items: [],
 };
 
